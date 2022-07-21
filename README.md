@@ -2,8 +2,8 @@
 
 ### ⚡ Proyecto de Pokedex 
 <p align="center">
-    <img src = pokemon-hazte-con-todos-03-1000x500.png
-width="450">
+    <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png'
+width='450'>
 </p>
 
 ### 👩🏻‍🏫 Proyecto realizado por: 
@@ -19,8 +19,7 @@ A continuación te invitamos a conocer qué hemos realizado en nuestro proyecto,
 Te atreves a jugar??
 HAZTE CON TODOS!! 
 <p align="center">
-    <img src = png-transparent-pokemon-pikachu-pokemon-go-pokemon-yellow-pokemon-pikachu-pikachu-leaf-dog-like-mammal-smiley-thumbnail.png
-width="450">
+<img src = 'https://www.pngmart.com/files/2/Pikachu-PNG-Transparent-Image.png' width='250'>
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -49,8 +48,9 @@ Puedes usar nuestra barra de navegación que se encuentra debajo de la cabecera 
 En la pantalla `Trainer` podrás crear un entrenador por medio de un formulario, y al darle al botón de `Submit` se guardará en la base de datos y además te irán apareciendo a continuación en formato lista en esa misma pantalla. (Puedes guardar tantos entrenadores como quieras). 
 En la pantalla `Team` podrás realizar tu equipo completo con uno de los entrenadores que  hayas creado previamente y con 6 pokemons a tu elección de todos los existentes. Todo ello se guardará además en la base de datos. 
 <p align="center">
-    <img src = png-transparent-pokemon-ash-illustration-ash-ketchum-pokxe9mon-go-pokxe9mon-x-and-y-pikachu-pokxe9mon-adventures-pokemon-ash-hd-child-hand-human-thumbnail.png
-width="450">
+    <img src = 'https://static.wikia.nocookie.net/espokemon/images/7/72/Rojo_RFVH_%28Ilustraci%C3%B3n%29.png/revision/latest?cb=20091129174930'
+width='150'>
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -64,6 +64,5 @@ width="450">
 Por último nos gustaría agradecerte tu tiempo por probar e interesarte en nuestro proyecto; esperamos haber estado a la altura de lo que se nos pedía y que te hayas divertido mientras lo revisabas.
 
 <p align="center">
-    <img src = 28b148d68672a6966eaf421dcd970aa3.png
-width="450">
+    <img src = 'http://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png' width='250'>
 
