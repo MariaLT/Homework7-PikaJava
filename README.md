@@ -2,7 +2,7 @@
 
 ### ⚡ Proyecto de Pokedex 
 <p align="center">
-    <img src = url pokemon
+    <img src = pokemon-hazte-con-todos-03-1000x500.png
 width="450">
 </p>
 
@@ -19,7 +19,7 @@ A continuación te invitamos a conocer qué hemos realizado en nuestro proyecto,
 Te atreves a jugar??
 HAZTE CON TODOS!! 
 <p align="center">
-    <img src = url pikachu
+    <img src = png-transparent-pokemon-pikachu-pokemon-go-pokemon-yellow-pokemon-pikachu-pikachu-leaf-dog-like-mammal-smiley-thumbnail.png
 width="450">
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -49,7 +49,7 @@ Puedes usar nuestra barra de navegación que se encuentra debajo de la cabecera 
 En la pantalla `Trainer` podrás crear un entrenador por medio de un formulario, y al darle al botón de `Submit` se guardará en la base de datos y además te irán apareciendo a continuación en formato lista en esa misma pantalla. (Puedes guardar tantos entrenadores como quieras). 
 En la pantalla `Team` podrás realizar tu equipo completo con uno de los entrenadores que  hayas creado previamente y con 6 pokemons a tu elección de todos los existentes. Todo ello se guardará además en la base de datos. 
 <p align="center">
-    <img src = url equipo
+    <img src = png-transparent-pokemon-ash-illustration-ash-ketchum-pokxe9mon-go-pokxe9mon-x-and-y-pikachu-pokxe9mon-adventures-pokemon-ash-hd-child-hand-human-thumbnail.png
 width="450">
 
 
