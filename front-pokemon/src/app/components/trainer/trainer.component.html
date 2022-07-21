@@ -1,0 +1,49 @@
+<div class="form-container">
+    <form (ngSubmit)="onSubmit()" [formGroup]="trainersForm">
+      <div class="input">
+        <div>
+          <input type="text" placeholder="Trainer name" value="name"
+                 formControlName="name">
+          <p class="error-msg" *ngIf="nameInput.hasError('required') &&
+              (nameInput.touched || nameInput.dirty)">
+            Name is required
+          </p>
+        </div>
+      </div>
+      <div class="input">
+        <div>
+          <input type="number" placeholder="Trainer age" value="age"
+                 formControlName="age">
+          <p class="error-msg" *ngIf="ageInput.hasError('required') &&
+              (ageInput.touched || ageInput.dirty)">
+            Age is required
+        </p>
+        </div>
+      </div>
+      <div class="input">
+        <div>
+          <input type="text" placeholder="Hobby" value="hobby"
+                 formControlName="hobby">
+          <p class="error-msg" *ngIf="hobbyInput.hasError('required') &&
+              (hobbyInput.touched || hobbyInput.dirty)">
+            Hobby is required
+        </p>
+    </div>
+  <div>
+        <button type="submit" [disabled]="trainersForm.invalid">Submit</button>
+      </div>
+      </div>
+    </form>
+    </div>
+
+    <div>
+        <ul>
+            <li *ngFor="let trainer of trainerList">
+              <img [src]="trainer.photo" [alt]="trainer.name">
+                {{trainer.id}}
+                {{trainer.name}}
+                {{trainer.age}}
+                {{trainer.hobby}}
+            </li>
+        </ul>
+    </div>

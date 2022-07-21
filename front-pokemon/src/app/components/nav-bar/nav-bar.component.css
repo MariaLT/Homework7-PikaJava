@@ -1,0 +1,13 @@
+ .container{
+    justify-content: left;
+    margin: auto;
+    align-items: left;
+    display: flex;
+    flex-flow: column; 
+  }
+  .navbar-item{
+    background-color: #595959;
+    color: #f21d2f;
+    font-size: 20px;
+    border:#fff solid 2px;
+  }
