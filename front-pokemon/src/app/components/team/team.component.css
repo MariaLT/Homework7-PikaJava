@@ -1,0 +1,22 @@
+.error-msg {
+    color: #f21d2f;
+    font-size: 0.75rem;
+}
+
+.form-container {
+    margin-left: 40%;
+}
+
+input {    
+    height: 60px;
+    width: 50%;
+    font-size: large;
+}
+
+button {
+    height: 60px;
+    width: 50%;
+    font-size: large;
+    background-color: #f21d2f;
+    color: white;
+}

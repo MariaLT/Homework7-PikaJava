@@ -2,7 +2,6 @@ package com.ironhack.pokemonjava.service;
 
 
 import com.ironhack.pokemonjava.controller.dto.TeamDTO;
-import com.ironhack.pokemonjava.controller.dto.TeamWithNameDTO;
 import com.ironhack.pokemonjava.model.Team;
 import com.ironhack.pokemonjava.model.Trainer;
 import com.ironhack.pokemonjava.repository.TeamRepository;
@@ -27,72 +26,17 @@ public class TeamService {
     private TrainerRepository trainerRepository;
 
 
-    public TeamWithNameDTO getTeamByTrainer(Long id) {
-        Optional<Trainer> trainer = trainerRepository.findById(id);
-
-        if(trainer.isPresent()){
-            Optional<Team> team = teamRepository.findByTrainer(id);
-            if(team.isPresent()){
-                return new TeamWithNameDTO(
-                        team.get().getId(),
-                        trainerRepository.getById(team.get().getId()).getName(),
-                        team.get().getPokemon()
-                );
-            }else{
-                return null;
-            }
-        }else{
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "No trainer matching that Id");
-        }
+    public List<Team> getAllTeams(){
+        return teamRepository.findAll();
     }
 
-
-    public Team changeTeam(TeamDTO teamDTO) {
-        Optional<Team> team = teamRepository.findByTrainer(teamDTO.getTrainer());
-
-        if(team.isPresent()){
-            team.get().setPokemon(teamDTO.getPokemon());
-            return teamRepository.save(team.get());
-        }else{
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "No team matching that Id");
-        }
+    public Team getTeamById(Long id){
+        return teamRepository.findById(id).get();
     }
 
-    // Needs error-handling
-    public List<TeamWithNameDTO> getAllTeams() {
-        List<Team> teamList = teamRepository.findAll();
-        List<TeamWithNameDTO> teamListWithNames = new ArrayList<>();
-        for (Team team: teamList) {
-         teamListWithNames.add(
-                 new TeamWithNameDTO(
-                         team.getId(),
-                         trainerRepository.getById(team.getId()).getName(),
-                         team.getPokemon()));
-        }
-        return teamListWithNames;
+    public Team createTeam(Team team){
+        return teamRepository.save(team);
     }
 
-    public TeamWithNameDTO deletePokemonFromTeam(Long teamId, String pokemonName) {
-        System.out.println("\ndelete service has been called\n");
-        Optional<Team> foundTeam = teamRepository.findById(teamId);
-        boolean foundPoke = false;
-        if (foundTeam.isPresent()){
-            int i = 0;
-            String[] newPokemonArray = new String[foundTeam.get().getPokemon().length - 1];
-            int index = Arrays.asList(foundTeam.get().getPokemon()).indexOf(pokemonName);
-            for (String pokemon : foundTeam.get().getPokemon()) {
-                if (pokemon.equals(pokemonName) && !foundPoke){
-                    foundPoke = true;
-                    continue;
-                } else {
-                    newPokemonArray[i] = pokemon;
-                    i++;
-                }
-            }
-            foundTeam.get().setPokemon(newPokemonArray);
-            teamRepository.save(foundTeam.get());
-        }
-            return null;
-        }
 
 }

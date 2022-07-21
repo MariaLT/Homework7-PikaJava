@@ -3,8 +3,10 @@ package com.ironhack.pokemonjava.controller.dto;
 
 public class TeamDTO {
 
-    private Long trainer;
+    private Long id;
 
+    private String name;
+    private Long trainer;
     private String[] pokemon;
 
     public TeamDTO(Long trainer, String[] pokemon) {

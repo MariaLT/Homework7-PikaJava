@@ -11,16 +11,16 @@ public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    private String name;
     private Long trainer;
-
     private String[] pokemon;
 
 
     public Team() {
     }
 
-    public Team(Long trainer, String[] pokemon) {
+    public Team(String name, Long trainer, String[] pokemon) {
+        this.name = name;
         this.trainer = trainer;
         this.pokemon = pokemon;
     }
@@ -50,5 +50,13 @@ public class Team {
 
     public void setPokemon(String[] pokemon) {
         this.pokemon = pokemon;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

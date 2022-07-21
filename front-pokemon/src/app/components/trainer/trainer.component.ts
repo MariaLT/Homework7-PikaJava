@@ -52,14 +52,6 @@ export class TrainerComponent implements OnInit {
     this.trainerService.getTrainers().subscribe(
       trainerListBack => {
         this.trainerList = trainerListBack;
-        /*
-        for (let data of trainerList) {
-          const trainer =
-            new Trainer(data.id, data.name, data.age, data.hobby);
-          this.trainerList.push(trainer);
-        }
-        */
-        
       }
     );
   }
