@@ -64,6 +64,6 @@ width="450">
 Por último nos gustaría agradecerte tu tiempo por probar e interesarte en nuestro proyecto; esperamos haber estado a la altura de lo que se nos pedía y que te hayas divertido mientras lo revisabas.
 
 <p align="center">
-    <img src = url pikachu diciendo adios 
+    <img src = 28b148d68672a6966eaf421dcd970aa3.png
 width="450">
 
