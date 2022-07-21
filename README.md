@@ -58,13 +58,6 @@ width="450">
 
 * El proyecto ha sido realizado por partes iguales por las 4 miembros del grupo, debido a que nuestra dinámica de trabajo ha consistido en realizar reuniones virtuales durante todo el proyecto. No nos hemos dividido el trabajo, sino que lo hemos ido haciendo de forma simultánea en conjunto. Íbamos turnándonos para escribir el código pero el resto del equipo participaba de la escritura del mismo a la vez. 
 * Como dato curioso, hemos intentado usar un aspecto en colores similar al del juego original
-* Al inicio del proyecto realizamos un diagrama para poder ilustrar mejor nuestro trabajo.
-Lo adjuntamos en nuestro repositorio como archivo png. Y, te lo mostramos a continuación: 
-
-<p align="center">
-    <img src = https://github.com/Pikajava/Homework6-PikaJava/blob/02068d2c80c54cab91504835befd3a2d312148bc/Diagrama%20microservicios.png
-width="450">
-</p>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
