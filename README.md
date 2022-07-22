@@ -39,8 +39,8 @@ Para ello:
 -	 en java usaremos por terminal: ` mvn spring-boot:run `
 -	En angular usaremos por terminal: `ng serve`
 
-Encontrarás en este proyecto un documento `mySQL homework7 pikajava` donde encontrarás las contraseñas que tienes que usar así como los nombres de los esquemas de la base de datos. 
 Te recomendamos que te crees una connection titulada homework con contraseña homework. 
+Y para dar los privilegios: `GRANT ALL PRIVILEGES ON homework.* TO 'homework'@'127.0.0.1';`
 
 Tras esto ya puedes jugar!!
 En la primera pantalla `Pokemon` encontrarás todos los pokemons, y podrás usar nuestra barra de navegación de páginas para poder ir viendo todos los pokemons que existen, te va a aparecer su foto, nombre y características. 
